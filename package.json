@@ -33,6 +33,6 @@
   "dependencies": {
     "axios": "^0.16.2",
     "dotenv": "^4.0.0",
-    "ged-145-server": "file:../ged-145-server"
+    "ged-145-server": "^0.3.2"
   }
 }
