@@ -1,0 +1,38 @@
+{
+  "name": "cce-app-gateway",
+  "version": "0.1.0",
+  "description": "Example Cisco CCE App Gateway using ged-145-server library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --spec reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ccondry/cce-app-gateway.git"
+  },
+  "keywords": [
+    "cce",
+    "app",
+    "gateway",
+    "icm",
+    "GED-145",
+    "cisco",
+    "application",
+    "gateway",
+    "11.6",
+    "pcce",
+    "ucce"
+  ],
+  "author": "Coty Condry <ccondry@cisco.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ccondry/cce-app-gateway/issues"
+  },
+  "homepage": "https://gitlab.com/ccondry/cce-app-gateway#README",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "dotenv": "^4.0.0",
+    "ged-145-server": "file:../ged-145-server"
+  }
+}
